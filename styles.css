@@ -1,8 +1,51 @@
 /*  your css code here. If applicable */
-.maincontainer{
+body{
 	background-color: #f5f5f5;
 }
-.row1{
-	color:white;
+.header{
 	background-color:#011e29;
+	color:white;
+	text-align:center;
+	padding:20px;
 }
+.main-content {
+	display: flex;
+	padding:20px; 
+	gap:20px;
+}
+.main-content>div{
+	background-color:white;
+	padding:20px;
+	border-radius:8px;
+}
+.latest-news-section h3 {
+    margin-top: 0;
+}
+.latest-news-section ul {
+            padding-left: 20px;
+        }
+ .main-article-section {
+            flex: 2; /* Takes up 2 parts of the space, making it twice as wide */
+        }
+.main-article-section h3 {
+            margin-top: 0;
+        }
+.pictorial-news-section {
+            flex: 1; /* Takes up 1 part of the available space */
+            text-align: center;
+        }
+.pictorial-news-section h3 {
+            margin-top: 0;
+        }
+.pictorial-news-section img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+
+
+
+
